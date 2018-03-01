@@ -7,12 +7,14 @@
       </li>
       <li>|</li>
       <li>
-        <router-link to="/backstage">后台</router-link>
+        <router-link to="/backstage">后台管理</router-link>
       </li>
       <li>|</li>
       <li>教师培训</li>
       <li>|</li>
-      <li>教师会议</li>
+      <li>教师资格</li>
+      <li>|</li>
+      <li>教师职称</li>
       <li>|</li>
       <li>退出系统</li>
     </ul>
@@ -31,6 +33,9 @@
     margin: 0 auto;
     width: 1000px;
     overflow: hidden;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    text-decoration: none;
   }
 
   .header-bar ul {
@@ -56,10 +61,12 @@
     color: #034DA4;
     text-decoration: none;
   }
+
   .header-bar ul li a:hover {
     color: #034DA4;
     text-decoration: none;
   }
+
   .header-bar ul li a:visited {
     color: #034DA4;
     text-decoration: none;

@@ -22,6 +22,7 @@
     color: #999999;
   }
   p{
+    font-family: "Microsoft YaHei UI";
     font-size: 12px;
     font-weight: bold;
     line-height: 180%;

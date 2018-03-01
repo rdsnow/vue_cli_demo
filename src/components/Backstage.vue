@@ -18,6 +18,7 @@
 
 <style scoped>
   h1 {
+    font-family: "Microsoft YaHei UI Light";
     width: 1000px;
     margin: 0 auto;
     text-align: center;
