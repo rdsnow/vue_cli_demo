@@ -1,15 +1,18 @@
 <template>
-    <div id="backstage">
-      <h2>This is backstage page......</h2>
-    </div>
+  <div id="backstage">
+    <h2>This is backstage page......</h2>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "backstage"
-    }
+  export default {
+    name: "backstage"
+  }
 </script>
 
 <style scoped>
-
+  #backstage {
+    clear: left;
+    color: lightcoral;
+  }
 </style>
