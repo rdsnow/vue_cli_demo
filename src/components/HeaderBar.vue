@@ -1,5 +1,5 @@
 <template>
-  <div id="header-bar">
+  <div class="header-bar">
     <img src="http://www.jste.net.cn/cmsplus/images/2014/logo.gif">
     <ul>
       <li>
@@ -16,9 +16,7 @@
       <li>|</li>
       <li>退出系统</li>
     </ul>
-    <router-view/>
   </div>
-
 </template>
 
 <script>
@@ -28,14 +26,14 @@
 </script>
 
 <style scoped>
-  #header-bar {
+  .header-bar {
     color: #034DA4;
     margin: 0 auto;
     width: 1000px;
     overflow: hidden;
   }
 
-  #header-bar ul {
+  .header-bar ul {
     float: right;
     height: 90px;
     width: 500px;
@@ -43,26 +41,26 @@
     margin: 0 auto;
   }
 
-  #header-bar img {
+  .header-bar img {
     float: left;
   }
 
-  #header-bar ul li {
+  .header-bar ul li {
     line-height: 90px;
     list-style-type: none;
     float: left;
     margin: 0 3px;
   }
 
-  #header-bar ul li a {
+  .header-bar ul li a {
     color: #034DA4;
     text-decoration: none;
   }
-  #header-bar ul li a:hover {
+  .header-bar ul li a:hover {
     color: #034DA4;
     text-decoration: none;
   }
-  #header-bar ul li a:visited {
+  .header-bar ul li a:visited {
     color: #034DA4;
     text-decoration: none;
   }
