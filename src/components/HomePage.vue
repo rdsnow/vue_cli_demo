@@ -13,7 +13,12 @@
 
   export default {
     components: {HeaderBar, FooterBar},
-    name: "home-page"
+    name: "home-page",
+    created() {
+      this.$http.get("http://jsonplaceholder.typicode.com/users").then((data)=>{
+        console.log(data);
+      })
+    }
   }
 </script>
 
