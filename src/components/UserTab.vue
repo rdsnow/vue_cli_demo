@@ -48,11 +48,23 @@
     text-align: center;
     color: blue;
     height: 600px;
-    border: 1px solid #dddddd;
+    border: 1px solid #f9f9f9;
   }
-  table{
-    margin: auto;
-    border: 1px;
+
+  table {
+    margin: 50px auto;
+    border: 1px solid #f9f9f9;
+    border-spacing: 0;
+  }
+
+  th {
+    border: 1px solid #f9f9f9;
+    padding: 9px;
+  }
+
+  td {
+    border: 1px solid #f9f9f9;
+    padding: 9px;
   }
 
 </style>
